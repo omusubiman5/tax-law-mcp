@@ -7,7 +7,7 @@ import { registerListTsutatsuTool } from './tools/list-tsutatsu.js';
 export function createServer(): McpServer {
   const server = new McpServer({
     name: 'tax-law-mcp',
-    version: '0.1.0',
+    version: '0.2.0',
   });
 
   // 法令ツール（e-Gov API v2）

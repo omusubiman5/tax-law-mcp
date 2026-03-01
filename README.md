@@ -99,13 +99,17 @@ npm run build
 
 ### リモート（Vercel）
 
-事務所チームメンバー向け。インストール不要:
+自前のVercelにデプロイすれば、チームメンバーはインストール不要で利用できます:
+
+```bash
+vercel deploy
+```
 
 ```json
 {
   "mcpServers": {
     "tax-law": {
-      "url": "https://tax-law-mcp.vercel.app/mcp"
+      "url": "https://<your-deployment>.vercel.app/mcp"
     }
   }
 }
