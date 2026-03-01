@@ -1,6 +1,6 @@
 {
   "name": "tax-law-mcp",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "MCP server for Japanese tax law — e-Gov API & NTA 通達 (administrative circulars)",
   "type": "module",
   "main": "dist/index.js",
