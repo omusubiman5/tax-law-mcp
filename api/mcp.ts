@@ -29,6 +29,9 @@ export default async function handler(req: IncomingMessage, res: ServerResponse)
   }
 
   try {
+    console.log('MCP handler called:', req.method, req.url);
+    console.log('Body type:', typeof (req as any).body, 'Body:', JSON.stringify((req as any).body));
+
     const transport = new StreamableHTTPServerTransport({
       sessionIdGenerator: undefined, // stateless
     });
